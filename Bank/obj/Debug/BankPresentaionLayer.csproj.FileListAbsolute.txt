@@ -1,0 +1,110 @@
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\MainMenuForm.exe.config
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\MainMenuForm.exe
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\MainMenuForm.pdb
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\BankBusinessLayer.dll
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\FontAwesome.Sharp.dll
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\BankSystemDataAccessLayer.dll
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\BankBusinessLayer.pdb
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\BankSystemDataAccessLayer.pdb
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\BankPresentaionLayer.csproj.AssemblyReference.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\BankPresentaionLayer.csproj.SuggestedBindingRedirects.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.frmMainMenu.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.MainMenuForms.frmShowClientsList.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.Properties.Resources.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\BankPresentaionLayer.csproj.GenerateResource.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\BankPresentaionLayer.csproj.CoreCompileInputs.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\BankPresentaionLayer.csproj.CopyComplete
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.exe
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.pdb
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.MainMenuForms.frmAddNewClient.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.MainMenuForms.frmDeleteClient.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.MainMenuForms.frmFindClient.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.MainMenuForms.frmUpdateClient.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.TransactionsMenuForms.frmDeposit.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTotalBalance.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.TransactionsMenuForms.frmWithdraw.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.UserMenuForms.frmAddNewUser.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.UserMenuForms.frmDeleteUser.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.UserMenuForms.frmFindUser.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.UserMenuForms.frmShowUsersList.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.UserMenuForms.frmUpdateUser.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.frmLoginForm.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\Guna.UI2.dll
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.frmAccessDeniedMessage.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.UserMenuForms.frmShowPermissionsDetails.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.MainMenuForms.frmLoginRegisters.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfer.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfersLogList.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\MainMenuForm.exe.config
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\MainMenuForm.exe
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\MainMenuForm.pdb
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\BankBusinessLayer.dll
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\FontAwesome.Sharp.dll
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\Guna.UI2.dll
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\BankSystemDataAccessLayer.dll
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\BankBusinessLayer.pdb
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\bin\Debug\BankSystemDataAccessLayer.pdb
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\BankPresentaionLayer.csproj.AssemblyReference.cache
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\BankPresentaionLayer.csproj.SuggestedBindingRedirects.cache
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.frmAccessDeniedMessage.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.frmLoginForm.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.frmMainMenu.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.MainMenuForms.frmAddNewClient.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.MainMenuForms.frmDeleteClient.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.MainMenuForms.frmFindClient.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.MainMenuForms.frmLoginRegisters.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.MainMenuForms.frmShowClientsList.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.MainMenuForms.frmUpdateClient.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.Properties.Resources.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.TransactionsMenuForms.frmDeposit.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTotalBalance.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfer.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfersLogList.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.TransactionsMenuForms.frmWithdraw.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.UserMenuForms.frmAddNewUser.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.UserMenuForms.frmDeleteUser.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.UserMenuForms.frmFindUser.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.UserMenuForms.frmShowPermissionsDetails.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.UserMenuForms.frmShowUsersList.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.UserMenuForms.frmUpdateUser.resources
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\BankPresentaionLayer.csproj.GenerateResource.cache
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\BankPresentaionLayer.csproj.CoreCompileInputs.cache
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\BankPresentaionLayer.csproj.CopyComplete
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.exe
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystem(WindowsForms)\obj\Debug\MainMenuForm.pdb
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\MainMenuForm.exe.config
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\MainMenuForm.exe
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\MainMenuForm.pdb
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\BankBusinessLayer.dll
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\FontAwesome.Sharp.dll
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\Guna.UI2.dll
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\BankSystemDataAccessLayer.dll
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\BankBusinessLayer.pdb
+D:\Learning Programming\Projects\bank-management-system\Bank\bin\Debug\BankSystemDataAccessLayer.pdb
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.AssemblyReference.cache
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.frmAccessDeniedMessage.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.frmLoginForm.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.frmMainMenu.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmAddNewClient.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmDeleteClient.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmFindClient.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmLoginRegisters.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmShowClientsList.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmUpdateClient.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.Properties.Resources.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmDeposit.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTotalBalance.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfer.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfersLogList.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmWithdraw.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmAddNewUser.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmDeleteUser.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmFindUser.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmShowPermissionsDetails.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmShowUsersList.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmUpdateUser.resources
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.GenerateResource.cache
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.CoreCompileInputs.cache
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.CopyComplete
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.exe
+D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.pdb

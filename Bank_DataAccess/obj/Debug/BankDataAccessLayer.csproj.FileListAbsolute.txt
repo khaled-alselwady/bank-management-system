@@ -1,0 +1,12 @@
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\BankSystemDataAccessLayer\bin\Debug\BankSystemDataAccessLayer.dll
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\BankSystemDataAccessLayer\bin\Debug\BankSystemDataAccessLayer.pdb
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankDataAccessLayer.csproj.AssemblyReference.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankSystemDataAccessLayer.dll
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankSystemDataAccessLayer.pdb
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystemDataAccessLayer\bin\Debug\BankSystemDataAccessLayer.dll
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystemDataAccessLayer\bin\Debug\BankSystemDataAccessLayer.pdb
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankDataAccessLayer.csproj.AssemblyReference.cache
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankSystemDataAccessLayer.dll
+C:\Khaled\Learning Programming\C# & Database Connectivity\BankSystemDataAccessLayer\obj\Debug\BankSystemDataAccessLayer.pdb

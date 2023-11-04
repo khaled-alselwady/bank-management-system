@@ -1,0 +1,13 @@
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\MainMenuForm.exe.config
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\MainMenuForm.exe
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\MainMenuForm.pdb
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\bin\Debug\FontAwesome.Sharp.dll
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.csproj.AssemblyReference.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.csproj.SuggestedBindingRedirects.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.Properties.Resources.resources
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.csproj.GenerateResource.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.csproj.CoreCompileInputs.cache
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.csproj.CopyComplete
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.exe
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.pdb
+D:\Khaled\Learning  Programming\Homeworks\C# & Database Connectivity\MainMenuForm\obj\Debug\MainMenuForm.frmMainMenu.resources

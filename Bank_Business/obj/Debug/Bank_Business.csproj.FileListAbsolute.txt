@@ -1,0 +1,9 @@
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\bin\Debug\BankBusinessLayer.dll
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\bin\Debug\BankBusinessLayer.pdb
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\bin\Debug\BankSystemDataAccessLayer.dll
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\bin\Debug\BankSystemDataAccessLayer.pdb
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\obj\Debug\Bank_Business.csproj.AssemblyReference.cache
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\obj\Debug\Bank_Business.csproj.CoreCompileInputs.cache
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\obj\Debug\Bank_Business.csproj.CopyComplete
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\obj\Debug\BankBusinessLayer.dll
+D:\Learning Programming\Projects\bank-management-system\Bank_Business\obj\Debug\BankBusinessLayer.pdb
