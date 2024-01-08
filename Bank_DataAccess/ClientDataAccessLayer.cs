@@ -428,28 +428,57 @@ namespace BankDataAccessLayer
             return dt;
         }
 
-        public static int AddTransferLog(DateTime dateTransfer, string SourceAccount,
-                                         string DestinationAccount, decimal Amount,
-                                         decimal SourceBalance, decimal DestinationBalance,
-                                         string User)
+        public static int AddTransferLog(string SourceAccount, string DestinationAccount,
+                                          decimal Amount, string Username,
+                                         int PersonIDFrom, int PersonIDTo, int ClientIDFrom,
+                                         int ClientIDTo)
         {
 
             int TransferLogID = -1;
 
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
 
-            string query = @"INSERT INTO TransfersLog (Date, SourceAccount, DestinationAccount, Amount, SourceBalance, DestinationBalance, Username)
-                             VALUES (@Date, @SourceAccount, @DestinationAccount, @Amount, @SourceBalance, @DestinationBalance, @Username);
-                             SELECT SCOPE_IDENTITY();";
+            string query = @"begin transaction;
+begin try
+		 IF NOT EXISTS (SELECT Found = 1 FROM Users WHERE PersonID = @PersonIDTo)
+                  BEGIN
+                        UPDATE Clients
+                        SET Balance = Balance - @Amount  
+                        WHERE ClientID    = @ClientIDFrom;
+                  END
+
+		 if not EXISTS (SELECT Found = 1 FROM Users WHERE PersonID = @PersonIDFrom)
+                  BEGIN
+                        UPDATE Clients
+                        SET Balance = Balance + @Amount 
+                        WHERE ClientID    = @ClientIDTo;
+                  END
+
+
+		declare @SourceBalance decimal(10,2) = (select Balance from Clients where ClientID = @ClientIDFrom);
+		declare @DestinationBalance decimal(10,2) = (select Balance from Clients where ClientID = @ClientIDTo);
+
+
+		INSERT INTO TransfersLog (Date, SourceAccount, DestinationAccount, Amount, SourceBalance, DestinationBalance, Username)
+                             VALUES (GETDATE(), @SourceAccount, @DestinationAccount, @Amount, @SourceBalance, @DestinationBalance, @Username);
+                             SELECT SCOPE_IDENTITY();
+
+	    Commit;
+end try
+
+begin catch
+			rollback;
+end catch";
 
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Date", dateTransfer);
             command.Parameters.AddWithValue("@SourceAccount", SourceAccount);
             command.Parameters.AddWithValue("@DestinationAccount", DestinationAccount);
             command.Parameters.AddWithValue("@Amount", Amount);
-            command.Parameters.AddWithValue("@SourceBalance", SourceBalance);
-            command.Parameters.AddWithValue("@DestinationBalance", DestinationBalance);
-            command.Parameters.AddWithValue("@Username", User);
+            command.Parameters.AddWithValue("@Username", Username);
+            command.Parameters.AddWithValue("@PersonIDFrom", PersonIDFrom);
+            command.Parameters.AddWithValue("@PersonIDTo", PersonIDTo);
+            command.Parameters.AddWithValue("@ClientIDFrom", ClientIDFrom);
+            command.Parameters.AddWithValue("@ClientIDTo", ClientIDTo);
 
             try
             {
@@ -457,7 +486,7 @@ namespace BankDataAccessLayer
 
                 object result = command.ExecuteScalar();
 
-                if (result != null && int.TryParse(result.ToString(),out int insertID))
+                if (result != null && int.TryParse(result.ToString(), out int insertID))
                 {
                     TransferLogID = insertID;
                 }

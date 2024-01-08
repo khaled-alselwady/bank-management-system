@@ -90,7 +90,7 @@ namespace MainMenuForm.TransactionsMenuForms
 
         private void Rest()
         {
-            maskTransferAmount.Enabled = false;
+            txtTransferAmount.Enabled = false;
             btnTransfer.Enabled = false;
             txtAccountNumberFrom.Enabled = true;
             txtAccountNumberTo.Enabled = false;
@@ -99,7 +99,7 @@ namespace MainMenuForm.TransactionsMenuForms
 
             txtAccountNumberFrom.Clear();
             txtAccountNumberTo.Clear();
-            maskTransferAmount.Clear();
+            txtTransferAmount.Clear();
             txtAccountNumberFrom.Focus();
             dgvShowClientInfoFrom.DataSource = new DataTable();
             dgvShowClientInfoTo.DataSource = new DataTable();
@@ -151,7 +151,7 @@ namespace MainMenuForm.TransactionsMenuForms
             else
             {
 
-                maskTransferAmount.Enabled = true;
+                txtTransferAmount.Enabled = true;
                 btnTransfer.Enabled = true;
                 txtAccountNumberTo.Enabled = false;
                 btnSearchTo.Enabled = false;
@@ -171,19 +171,19 @@ namespace MainMenuForm.TransactionsMenuForms
 
                 dgvShowClientInfoTo.DataSource = dt;
 
-                maskTransferAmount.Focus();
+                txtTransferAmount.Focus();
             }
         }
 
         private void btnTransfer_Click(object sender, EventArgs e)
         {
 
-            if (string.IsNullOrWhiteSpace(maskTransferAmount.Text))
+            if (string.IsNullOrWhiteSpace(txtTransferAmount.Text))
             {
                 MessageBox.Show("Please enter the transfer amount!",
                     "Wrong", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                maskTransferAmount.Focus();
+                txtTransferAmount.Focus();
                 return;
             }
 
@@ -196,22 +196,22 @@ namespace MainMenuForm.TransactionsMenuForms
                     MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
 
-                    if (Convert.ToDecimal(maskTransferAmount.Text) > ClientFrom.Balance)
+                    if (Convert.ToDecimal(txtTransferAmount.Text) > ClientFrom.Balance)
                     {
                         MessageBox.Show("Amount exceeds the available Balance, Enter another amount.",
                             "Amount Exceeds", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        maskTransferAmount.Focus();
+                        txtTransferAmount.Focus();
 
                         return;
                     }
 
-                    if (ClientFrom.Transfer(ref ClientTo, Convert.ToDecimal(maskTransferAmount.Text),_UserName))
+                    if (ClientFrom.Transfer(ClientTo, Convert.ToDecimal(txtTransferAmount.Text), _UserName))
                     {
 
                         MessageBox.Show("Transfer Done Successfully.", "Completed",
                             MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        
+
 
                         Rest();
                     }
@@ -221,7 +221,7 @@ namespace MainMenuForm.TransactionsMenuForms
                         MessageBox.Show("Sorry, There is a problem, please try again.",
                                        "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                        maskTransferAmount.Focus();
+                        txtTransferAmount.Focus();
                     }
 
 
@@ -238,6 +238,28 @@ namespace MainMenuForm.TransactionsMenuForms
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Rest();
+        }
+
+        private void maskTransferAmount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char inputChar = e.KeyChar;
+
+            // Allow digits, the decimal point, and the backspace.
+            bool isDigit = Char.IsDigit(inputChar);
+            bool isDecimalPoint = (inputChar == '.');
+            bool isBackspace = (inputChar == '\b');
+
+            // If the input character is not a digit, decimal point, or backspace, suppress it.
+            if (!isDigit && !isDecimalPoint && !isBackspace)
+            {
+                e.Handled = true;
+            }
+
+            // Make sure there is only one decimal point in the input.
+            if (isDecimalPoint && ((sender as TextBox).Text.Contains(".") || (sender as TextBox).Text.Length == 0))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

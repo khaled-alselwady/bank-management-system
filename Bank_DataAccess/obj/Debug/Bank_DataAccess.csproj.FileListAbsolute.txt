@@ -4,3 +4,9 @@ D:\Learning Programming\Projects\bank-management-system\Bank_DataAccess\obj\Debu
 D:\Learning Programming\Projects\bank-management-system\Bank_DataAccess\obj\Debug\Bank_DataAccess.csproj.CoreCompileInputs.cache
 D:\Learning Programming\Projects\bank-management-system\Bank_DataAccess\obj\Debug\BankSystemDataAccessLayer.dll
 D:\Learning Programming\Projects\bank-management-system\Bank_DataAccess\obj\Debug\BankSystemDataAccessLayer.pdb
+C:\Users\PC\Desktop\bank-management-system\Bank_DataAccess\bin\Debug\BankSystemDataAccessLayer.dll
+C:\Users\PC\Desktop\bank-management-system\Bank_DataAccess\bin\Debug\BankSystemDataAccessLayer.pdb
+C:\Users\PC\Desktop\bank-management-system\Bank_DataAccess\obj\Debug\Bank_DataAccess.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\bank-management-system\Bank_DataAccess\obj\Debug\Bank_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\bank-management-system\Bank_DataAccess\obj\Debug\BankSystemDataAccessLayer.dll
+C:\Users\PC\Desktop\bank-management-system\Bank_DataAccess\obj\Debug\BankSystemDataAccessLayer.pdb

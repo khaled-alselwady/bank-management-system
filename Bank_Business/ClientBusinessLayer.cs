@@ -23,7 +23,7 @@ namespace BankBusinessLayer
             public decimal DestinationBalance { get; set; }
             public string User { get; set; }
         }
-        
+
 
         public int ClientID { get; set; }
         public string AccountNumber { get; set; }
@@ -224,20 +224,12 @@ namespace BankBusinessLayer
 
         }
 
-        public bool Transfer(ref clsClient DestinationClient, decimal Amount, string UserName)
+        public bool Transfer(clsClient DestinationClient, decimal Amount, string UserName)
         {
-
             if (Amount > this.Balance)
-            {
                 return false;
-            }
 
-            Withdraw(Amount);
-            DestinationClient.Deposit(Amount);
-
-            _TransferLog(DestinationClient, Amount, UserName);
-
-            return true;
+            return _TransferLog(DestinationClient, Amount, UserName);
         }
 
         public static decimal GetTotalBalances()
@@ -250,10 +242,10 @@ namespace BankBusinessLayer
             return clsClientDataAccessLayer.GetInfoTotalBalances();
         }
 
-        private void _TransferLog(clsClient DestinationClient, decimal Amount, string User)
+        private bool _TransferLog(clsClient DestinationClient, decimal Amount, string User)
         {
             stTransferLog TransferLog = new stTransferLog();
-            
+
             TransferLog.Date = DateTime.Now;
             TransferLog.SourceAccount = AccountNumber;
             TransferLog.DestinationAccount = DestinationClient.AccountNumber;
@@ -262,10 +254,13 @@ namespace BankBusinessLayer
             TransferLog.DestinationBalance = DestinationClient.Balance;
             TransferLog.User = User;
 
-            TransferLog.TransferLogID = clsClientDataAccessLayer.AddTransferLog(TransferLog.Date,
+            TransferLog.TransferLogID = clsClientDataAccessLayer.AddTransferLog(
                                         TransferLog.SourceAccount, TransferLog.DestinationAccount,
-                                        TransferLog.Amount, TransferLog.SourceBalance,
-                                        TransferLog.DestinationBalance, TransferLog.User);
+                                        TransferLog.Amount, TransferLog.User, PersonID,
+                                        DestinationClient.PersonID, ClientID,
+                                        DestinationClient.ClientID);
+
+            return (TransferLog.TransferLogID != -1);
         }
 
         public static DataTable GetAllTransfersLog()

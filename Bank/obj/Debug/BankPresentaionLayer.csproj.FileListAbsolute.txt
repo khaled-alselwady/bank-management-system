@@ -108,3 +108,39 @@ D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\BankPrese
 D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.CopyComplete
 D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.exe
 D:\Learning Programming\Projects\bank-management-system\Bank\obj\Debug\MainMenuForm.pdb
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\MainMenuForm.exe.config
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\MainMenuForm.exe
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\MainMenuForm.pdb
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\BankBusinessLayer.dll
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\Guna.UI2.dll
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\BankSystemDataAccessLayer.dll
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\BankBusinessLayer.pdb
+C:\Users\PC\Desktop\bank-management-system\Bank\bin\Debug\BankSystemDataAccessLayer.pdb
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.frmAccessDeniedMessage.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.frmLoginForm.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.frmMainMenu.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmAddNewClient.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmDeleteClient.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmFindClient.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmLoginRegisters.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmShowClientsList.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.MainMenuForms.frmUpdateClient.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.Properties.Resources.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmDeposit.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTotalBalance.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfer.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmTransfersLogList.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.TransactionsMenuForms.frmWithdraw.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmAddNewUser.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmDeleteUser.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmFindUser.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmShowPermissionsDetails.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmShowUsersList.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.UserMenuForms.frmUpdateUser.resources
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\BankPresentaionLayer.csproj.CopyComplete
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.exe
+C:\Users\PC\Desktop\bank-management-system\Bank\obj\Debug\MainMenuForm.pdb

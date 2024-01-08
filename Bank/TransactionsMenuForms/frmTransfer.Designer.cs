@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnSearchFrom = new System.Windows.Forms.Button();
-            this.txtAccountNumberFrom = new System.Windows.Forms.TextBox();
-            this.lblAccountNumber = new System.Windows.Forms.Label();
-            this.dgvShowClientInfoFrom = new System.Windows.Forms.DataGridView();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnTransfer = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.dgvShowClientInfoTo = new System.Windows.Forms.DataGridView();
             this.btnSearchTo = new System.Windows.Forms.Button();
             this.txtAccountNumberTo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.maskTransferAmount = new System.Windows.Forms.MaskedTextBox();
-            this.btnTransfer = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.dgvShowClientInfoFrom = new System.Windows.Forms.DataGridView();
+            this.btnSearchFrom = new System.Windows.Forms.Button();
+            this.txtAccountNumberFrom = new System.Windows.Forms.TextBox();
+            this.lblAccountNumber = new System.Windows.Forms.Label();
+            this.txtTransferAmount = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvShowClientInfoFrom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShowClientInfoTo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvShowClientInfoFrom)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
+            this.panel1.Controls.Add(this.txtTransferAmount);
             this.panel1.Controls.Add(this.btnCancel);
-            this.panel1.Controls.Add(this.maskTransferAmount);
             this.panel1.Controls.Add(this.btnTransfer);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dgvShowClientInfoTo);
@@ -69,64 +69,47 @@
             this.panel1.Size = new System.Drawing.Size(918, 556);
             this.panel1.TabIndex = 0;
             // 
-            // btnSearchFrom
+            // btnCancel
             // 
-            this.btnSearchFrom.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnSearchFrom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnSearchFrom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearchFrom.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.btnSearchFrom.ForeColor = System.Drawing.Color.Black;
-            this.btnSearchFrom.Location = new System.Drawing.Point(612, 62);
-            this.btnSearchFrom.Name = "btnSearchFrom";
-            this.btnSearchFrom.Size = new System.Drawing.Size(91, 33);
-            this.btnSearchFrom.TabIndex = 48;
-            this.btnSearchFrom.Text = "Search";
-            this.btnSearchFrom.UseVisualStyleBackColor = true;
-            this.btnSearchFrom.Click += new System.EventHandler(this.btnSearchFrom_Click);
+            this.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnCancel.ForeColor = System.Drawing.Color.Black;
+            this.btnCancel.Location = new System.Drawing.Point(747, 448);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(91, 33);
+            this.btnCancel.TabIndex = 57;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // txtAccountNumberFrom
+            // btnTransfer
             // 
-            this.txtAccountNumberFrom.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.txtAccountNumberFrom.ForeColor = System.Drawing.Color.Black;
-            this.txtAccountNumberFrom.Location = new System.Drawing.Point(312, 66);
-            this.txtAccountNumberFrom.Name = "txtAccountNumberFrom";
-            this.txtAccountNumberFrom.Size = new System.Drawing.Size(261, 27);
-            this.txtAccountNumberFrom.TabIndex = 46;
+            this.btnTransfer.Enabled = false;
+            this.btnTransfer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnTransfer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnTransfer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTransfer.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnTransfer.ForeColor = System.Drawing.Color.Black;
+            this.btnTransfer.Location = new System.Drawing.Point(612, 448);
+            this.btnTransfer.Name = "btnTransfer";
+            this.btnTransfer.Size = new System.Drawing.Size(91, 33);
+            this.btnTransfer.TabIndex = 55;
+            this.btnTransfer.Text = "Transfer";
+            this.btnTransfer.UseVisualStyleBackColor = true;
+            this.btnTransfer.Click += new System.EventHandler(this.btnTransfer_Click);
             // 
-            // lblAccountNumber
+            // label2
             // 
-            this.lblAccountNumber.AutoSize = true;
-            this.lblAccountNumber.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.lblAccountNumber.ForeColor = System.Drawing.Color.Black;
-            this.lblAccountNumber.Location = new System.Drawing.Point(50, 69);
-            this.lblAccountNumber.Name = "lblAccountNumber";
-            this.lblAccountNumber.Size = new System.Drawing.Size(256, 19);
-            this.lblAccountNumber.TabIndex = 47;
-            this.lblAccountNumber.Text = "Account Number to Transfer from:";
-            // 
-            // dgvShowClientInfoFrom
-            // 
-            this.dgvShowClientInfoFrom.AllowUserToAddRows = false;
-            this.dgvShowClientInfoFrom.AllowUserToDeleteRows = false;
-            this.dgvShowClientInfoFrom.AllowUserToOrderColumns = true;
-            this.dgvShowClientInfoFrom.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.dgvShowClientInfoFrom.BackgroundColor = System.Drawing.Color.LightGray;
-            this.dgvShowClientInfoFrom.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvShowClientInfoFrom.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvShowClientInfoFrom.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvShowClientInfoFrom.GridColor = System.Drawing.Color.DarkGray;
-            this.dgvShowClientInfoFrom.Location = new System.Drawing.Point(284, 112);
-            this.dgvShowClientInfoFrom.Name = "dgvShowClientInfoFrom";
-            this.dgvShowClientInfoFrom.ReadOnly = true;
-            this.dgvShowClientInfoFrom.Size = new System.Drawing.Size(419, 66);
-            this.dgvShowClientInfoFrom.TabIndex = 49;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(150, 453);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(136, 19);
+            this.label2.TabIndex = 54;
+            this.label2.Text = "Transfer Amount:";
             // 
             // dgvShowClientInfoTo
             // 
@@ -189,60 +172,75 @@
             this.label1.TabIndex = 51;
             this.label1.Text = "Account Number to Transfer to:";
             // 
-            // btnCancel
+            // dgvShowClientInfoFrom
             // 
-            this.btnCancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.btnCancel.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Location = new System.Drawing.Point(747, 448);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(91, 33);
-            this.btnCancel.TabIndex = 57;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.dgvShowClientInfoFrom.AllowUserToAddRows = false;
+            this.dgvShowClientInfoFrom.AllowUserToDeleteRows = false;
+            this.dgvShowClientInfoFrom.AllowUserToOrderColumns = true;
+            this.dgvShowClientInfoFrom.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dgvShowClientInfoFrom.BackgroundColor = System.Drawing.Color.LightGray;
+            this.dgvShowClientInfoFrom.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvShowClientInfoFrom.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvShowClientInfoFrom.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvShowClientInfoFrom.GridColor = System.Drawing.Color.DarkGray;
+            this.dgvShowClientInfoFrom.Location = new System.Drawing.Point(284, 112);
+            this.dgvShowClientInfoFrom.Name = "dgvShowClientInfoFrom";
+            this.dgvShowClientInfoFrom.ReadOnly = true;
+            this.dgvShowClientInfoFrom.Size = new System.Drawing.Size(419, 66);
+            this.dgvShowClientInfoFrom.TabIndex = 49;
             // 
-            // maskTransferAmount
+            // btnSearchFrom
             // 
-            this.maskTransferAmount.Enabled = false;
-            this.maskTransferAmount.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.maskTransferAmount.ForeColor = System.Drawing.Color.Black;
-            this.maskTransferAmount.Location = new System.Drawing.Point(312, 450);
-            this.maskTransferAmount.Mask = "000000000000";
-            this.maskTransferAmount.Name = "maskTransferAmount";
-            this.maskTransferAmount.PromptChar = ' ';
-            this.maskTransferAmount.Size = new System.Drawing.Size(261, 27);
-            this.maskTransferAmount.TabIndex = 56;
-            this.maskTransferAmount.ValidatingType = typeof(int);
+            this.btnSearchFrom.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnSearchFrom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnSearchFrom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearchFrom.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnSearchFrom.ForeColor = System.Drawing.Color.Black;
+            this.btnSearchFrom.Location = new System.Drawing.Point(612, 62);
+            this.btnSearchFrom.Name = "btnSearchFrom";
+            this.btnSearchFrom.Size = new System.Drawing.Size(91, 33);
+            this.btnSearchFrom.TabIndex = 48;
+            this.btnSearchFrom.Text = "Search";
+            this.btnSearchFrom.UseVisualStyleBackColor = true;
+            this.btnSearchFrom.Click += new System.EventHandler(this.btnSearchFrom_Click);
             // 
-            // btnTransfer
+            // txtAccountNumberFrom
             // 
-            this.btnTransfer.Enabled = false;
-            this.btnTransfer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnTransfer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnTransfer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransfer.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.btnTransfer.ForeColor = System.Drawing.Color.Black;
-            this.btnTransfer.Location = new System.Drawing.Point(612, 448);
-            this.btnTransfer.Name = "btnTransfer";
-            this.btnTransfer.Size = new System.Drawing.Size(91, 33);
-            this.btnTransfer.TabIndex = 55;
-            this.btnTransfer.Text = "Transfer";
-            this.btnTransfer.UseVisualStyleBackColor = true;
-            this.btnTransfer.Click += new System.EventHandler(this.btnTransfer_Click);
+            this.txtAccountNumberFrom.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txtAccountNumberFrom.ForeColor = System.Drawing.Color.Black;
+            this.txtAccountNumberFrom.Location = new System.Drawing.Point(312, 66);
+            this.txtAccountNumberFrom.Name = "txtAccountNumberFrom";
+            this.txtAccountNumberFrom.Size = new System.Drawing.Size(261, 27);
+            this.txtAccountNumberFrom.TabIndex = 46;
             // 
-            // label2
+            // lblAccountNumber
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(150, 453);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 19);
-            this.label2.TabIndex = 54;
-            this.label2.Text = "Transfer Amount:";
+            this.lblAccountNumber.AutoSize = true;
+            this.lblAccountNumber.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.lblAccountNumber.ForeColor = System.Drawing.Color.Black;
+            this.lblAccountNumber.Location = new System.Drawing.Point(50, 69);
+            this.lblAccountNumber.Name = "lblAccountNumber";
+            this.lblAccountNumber.Size = new System.Drawing.Size(256, 19);
+            this.lblAccountNumber.TabIndex = 47;
+            this.lblAccountNumber.Text = "Account Number to Transfer from:";
+            // 
+            // txtTransferAmount
+            // 
+            this.txtTransferAmount.Enabled = false;
+            this.txtTransferAmount.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.txtTransferAmount.ForeColor = System.Drawing.Color.Black;
+            this.txtTransferAmount.Location = new System.Drawing.Point(312, 450);
+            this.txtTransferAmount.Name = "txtTransferAmount";
+            this.txtTransferAmount.Size = new System.Drawing.Size(261, 27);
+            this.txtTransferAmount.TabIndex = 58;
+            this.txtTransferAmount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.maskTransferAmount_KeyPress);
             // 
             // frmTransfer
             // 
@@ -255,8 +253,8 @@
             this.Text = "frmTransfer";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvShowClientInfoFrom)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShowClientInfoTo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvShowClientInfoFrom)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -273,8 +271,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvShowClientInfoFrom;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.MaskedTextBox maskTransferAmount;
         private System.Windows.Forms.Button btnTransfer;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtTransferAmount;
     }
 }
