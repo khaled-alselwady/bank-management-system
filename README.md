@@ -6,15 +6,15 @@ The **Bank Management System** is a robust and secure software solution designed
 - **Account Management:** Create, update, and manage customer accounts, including savings, checking, and fixed deposits.
 - **Transaction Tracking:** Monitor real-time transactions, including deposits, withdrawals, and fund transfers.
 - **Employee Operations:** Manage employee profiles, roles, and access permissions.
-- **Reporting and Analytics:** Generate detailed reports on transactions, customer accounts, and financial activities.
+- **Registrations and Logging:** Facilitate user registration and logging to ensure secure access to the system and track user activities.
 
 ## Technologies Used:
-
-- **Framework:** .NET Windows Forms (C#)
-- **Database:** SQL Server
-- **Data Access:** ADO.NET
+- **Framework:** .NET Framework (C#)
+- **Database:** Microsoft SQL Server with ADO.NET
 - **User Interface:** Windows Forms (WinForms)
-- **Development Environment:** Microsoft Visual Studio
+- **Authentication:** Custom user authentication system
+- **Architecture:** 3-tier architecture
+- **Deployment:** Standalone desktop application
 
 Explore our demo [here](https://drive.google.com/file/d/1jB30H2GB2B-8D1w47FfBQ6jF6D7jL6XI/view?usp=sharing) and experience the future of efficient banking management!
 
